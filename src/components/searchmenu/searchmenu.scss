@@ -1,0 +1,506 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 480PX
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    .searchmenu{
+        background:rgb(215, 215, 221);
+        height:2.5rem;
+        position:absolute;
+        width:100%;
+        top:5.5rem;
+        justify-content: center;
+        align-items: center;
+        display:flex;
+        transition: all 0.5s;
+
+        .mainsearch{
+            width:80%;
+            margin:0 auto;
+            background:#fff;
+            border:0.2rem solid #fff;
+            border-radius:0.2rem;
+            position:relative;
+            height:1.5rem;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            flex-wrap:nowrap;
+            padding:0 0 0 1%;
+            align-items: center;
+
+            .searchicon{
+                width:5%;
+                display:flex;
+                flex-direction:row;
+                justify-content: center; 
+                align-items: center;
+                
+                              
+                img{
+                    width:100%;
+                    height:1rem;
+
+
+
+                }
+            }
+
+            .searchinput{
+                width:72%;
+                height:1.5rem;
+                
+               
+                
+
+            }
+
+            .searchtext{
+                width:17%;
+                background:rgb(215, 215, 221);
+                text-align:center;
+                font-size:0.9rem;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                border-radius:0.2rem;
+                height:1rem;
+                border:0.2rem solid rgb(215, 215, 221);
+                font-weight:bold;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+
+                &:hover{
+                    background:rgb(3, 163, 238);
+                    border:0.2rem solid rgb(3, 163, 238);
+                }
+            }
+
+
+            
+
+        }
+
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 481PX TILL 599PX
+
+@media only screen and (min-width:481px) and (max-width:599px){
+
+    .searchmenu{
+        background:rgb(215, 215, 221);
+        height:3rem;
+        position:absolute;
+        width:100%;
+        top:6rem;
+        justify-content: center;
+        align-items: center;
+        display:flex;
+        transition: all 0.5s;
+
+        .mainsearch{
+            width:60%;
+            margin:0 auto;
+            background:#fff;
+            border:0.2rem solid #fff;
+            border-radius:0.2rem;
+            position:relative;
+            height:1.7rem;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            flex-wrap:nowrap;
+            padding:0 0 0 1%;
+            align-items: center;
+
+            .searchicon{
+                width:4.8%;
+                display:flex;
+                flex-direction:row;
+                justify-content: center; 
+                align-items: center;
+                
+                              
+                img{
+                    width:100%;
+                    height:1rem;
+
+
+
+                }
+            }
+
+            .searchinput{
+                width:75%;
+                height:1.5rem;
+               
+                
+
+            }
+
+            .searchtext{
+                width:15%;
+                background:rgb(215, 215, 221);
+                text-align:center;
+                font-size:0.9rem;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                border-radius:0.2rem;
+                height:1.2rem;
+                border:0.2rem solid rgb(215, 215, 221);
+                font-weight:bold;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+
+                &:hover{
+                    background:rgb(3, 163, 238);
+                    border:0.2rem solid rgb(3, 163, 238);
+                }
+            }
+
+
+            
+
+        }
+
+    }
+    
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 600PX TILL 768PX
+
+@media only screen and (min-width:600px) and (max-width:768px){
+
+
+    .searchmenu{
+        background:rgb(215, 215, 221);
+        height:3.3rem;
+        position:absolute;
+        width:100%;
+        top:6.7rem;
+        justify-content: center;
+        align-items: center;
+        display:flex;
+        transition: all 0.5s;
+
+        .mainsearch{
+            width:60%;
+            margin:0 auto;
+            background:#fff;
+            border:0.2rem solid #fff;
+            border-radius:0.2rem;
+            position:relative;
+            height:2rem;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            flex-wrap:nowrap;
+            padding:0 0 0 1%;
+            align-items: center;
+
+            .searchicon{
+                width:4.5%;
+                display:flex;
+                flex-direction:row;
+                justify-content: center; 
+                align-items: center;
+                
+                              
+                img{
+                    width:100%;
+                    height:1.2rem;
+
+
+
+                }
+            }
+
+            .searchinput{
+                width:78%;
+                height:1.5rem;
+               
+                
+
+            }
+
+            .searchtext{
+                width:12%;
+                background:rgb(215, 215, 221);
+                text-align:center;
+                font-size:0.9rem;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                border-radius:0.2rem;
+                height:1.5rem;
+                border:0.2rem solid rgb(215, 215, 221);
+                font-weight:bold;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+
+                &:hover{
+                    background:rgb(3, 163, 238);
+                    border:0.2rem solid rgb(3, 163, 238);
+                }
+            }
+
+
+            
+
+        }
+
+    }
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769PX TILL 1024PX
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+
+    .searchmenu{
+        background:rgb(215, 215, 221);
+        height:4.2rem;
+        position:absolute;
+        width:100%;
+        top:6.7rem;
+        justify-content: center;
+        align-items: center;
+        display:flex;
+        transition: all 0.5s;
+
+        .mainsearch{
+            width:44%;
+            margin:0 auto;
+            background:#fff;
+            border:0.2rem solid #fff;
+            border-radius:0.2rem;
+            position:relative;
+            height:2.2rem;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            flex-wrap:nowrap;
+            padding:0 0 0 1%;
+            align-items: center;
+
+            .searchicon{
+                width:4.5%;
+                display:flex;
+                flex-direction:row;
+                justify-content: center; 
+                align-items: center;
+                
+                              
+                img{
+                    width:100%;
+                    height:1.1rem;
+
+
+
+                }
+            }
+
+            .searchinput{
+                width:78%;
+                height:1.5rem;
+               
+                
+
+            }
+
+            .searchtext{
+                width:12%;
+                background:rgb(215, 215, 221);
+                text-align:center;
+                font-size:0.9rem;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                border-radius:0.2rem;
+                height:1.5rem;
+                border:0.2rem solid rgb(215, 215, 221);
+                font-weight:bold;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+
+                &:hover{
+                    background:rgb(3, 163, 238);
+                    border:0.2rem solid rgb(3, 163, 238);
+                }
+            }
+
+
+            
+
+        }
+
+    }
+    
+
+
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1025PX TILL 1200PX
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+
+    .searchmenu{
+        background:rgb(215, 215, 221);
+        height:4.5rem;
+        position:absolute;
+        width:100%;
+        top:6.7rem;
+        justify-content: center;
+        align-items: center;
+        display:flex;
+        transition: all 0.5s;
+
+        .mainsearch{
+            width:44%;
+            margin:0 auto;
+            background:#fff;
+            border:0.2rem solid #fff;
+            border-radius:0.2rem;
+            position:relative;
+            height:2.5rem;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            flex-wrap:nowrap;
+            padding:0 0 0 1%;
+            align-items: center;
+
+            .searchicon{
+                width:4%;
+                display:flex;
+                flex-direction:row;
+                justify-content: center; 
+                align-items: center;
+                
+                              
+                img{
+                    width:100%;
+                    height:1.4rem;
+
+
+
+                }
+            }
+
+            .searchinput{
+                width:80%;
+                height:1.7rem;
+               
+                
+
+            }
+
+            .searchtext{
+                width:10%;
+                background:rgb(215, 215, 221);
+                text-align:center;
+                font-size:0.9rem;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                border-radius:0.2rem;
+                height:1.7rem;
+                border:0.2rem solid rgb(215, 215, 221);
+                font-weight:bold;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+
+                &:hover{
+                    background:rgb(3, 163, 238);
+                    border:0.2rem solid rgb(3, 163, 238);
+                }
+            }
+
+
+            
+
+        }
+
+    }
+    
+}
+
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 1201PX TILL ...
+
+@media only screen and (min-width:1201px){
+
+    .searchmenu{
+        background:rgb(215, 215, 221);
+        height:4.5rem;
+        position:absolute;
+        width:100%;
+        top:6.7rem;
+        justify-content: center;
+        align-items: center;
+        display:flex;
+        transition: all 0.5s;
+
+        .mainsearch{
+            width:44%;
+            margin:0 auto;
+            background:#fff;
+            border:0.2rem solid #fff;
+            border-radius:0.2rem;
+            position:relative;
+            height:2.5rem;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            flex-wrap:nowrap;
+            padding:0 0 0 1%;
+            align-items: center;
+
+            .searchicon{
+                width:4%;
+                display:flex;
+                flex-direction:row;
+                justify-content: center; 
+                align-items: center;
+                
+                              
+                img{
+                    width:100%;
+                    height:1.4rem;
+
+
+
+                }
+            }
+
+            .searchinput{
+                width:80%;
+                height:1.7rem;
+               
+                
+
+            }
+
+            .searchtext{
+                width:10%;
+                background:rgb(215, 215, 221);
+                text-align:center;
+                font-size:0.9rem;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                border-radius:0.2rem;
+                height:1.7rem;
+                border:0.2rem solid rgb(215, 215, 221);
+                font-weight:bold;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+
+                &:hover{
+                    background:rgb(3, 163, 238);
+                    border:0.2rem solid rgb(3, 163, 238);
+                }
+            }
+
+
+            
+
+        }
+
+    }
+}

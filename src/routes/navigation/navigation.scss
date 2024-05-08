@@ -1,0 +1,27 @@
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 768PX
+@media only screen and (min-width:320px) and (max-width:768px){
+    .navigation{
+        position:fixed;
+        width:100%;
+
+        .empty{
+            height:2rem;
+            background:rgb(215, 215, 221);
+        }
+    }
+
+}
+//THIS IS THE STYLING FOR DEVICE WITH WIDTH 769PX TILL ...
+
+@media only screen and (min-width:769px){
+    .navigation{
+        position:fixed;
+        width:100%;
+        cursor: pointer;
+
+        .empty{
+            height:2rem;
+            background:rgb(215, 215, 221);
+        }
+    }
+}
