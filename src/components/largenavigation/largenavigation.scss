@@ -12,8 +12,9 @@
     .largenav{
 
         cursor:pointer;
-        margin:0.6rem auto 0 auto;
-        width:96%;
+        margin:0 auto 0 auto;
+        width:100%;
+        background:#ffffff;
      
 
         
@@ -23,13 +24,14 @@
             flex-direction:row;
             flex-wrap:nowrap;
             justify-content:space-around;
+            width:96%;
            
 
             .logo{
                 width:2%;
                 position:absolute;
                 left:5%;
-                top:3.5rem;
+                top:1rem;
                
                               
                
@@ -46,9 +48,9 @@
             h3{
                 width:50%;
                 text-align:center;
-                font-family:"Kurale", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-family:"Arvo", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 font-size:2rem;
-                padding:0.2rem 0 0 2rem;
+                padding:0.6rem 0 0 2rem;
                 margin:0 0 0 25%;
                 line-height:30px;
 
@@ -69,11 +71,11 @@
                 
 
                 img{
-                    width:3%;
-                    height:2.3rem;
+                    width:3.5%;
+                    height:2.4rem;
                     position:absolute;
-                    left:87%;
-                    top:3.3rem;
+                    left:84%;
+                    top:0.67rem;
                 }
             }
         }
@@ -90,12 +92,11 @@
             
 
             .mymenus{
-                border:none;
+                border:0.2rem solid white;
                 padding:0 0.5% 0.5rem 0.5%;
-                border-radius:0.1rem;
                 font-weight:bold;
                 text-align:center;
-                transition:border 0.30s ease-in-out;
+                transition:all 0.40s ease-in-out;
 
                 &:hover{
                     border-bottom:0.2rem solid rgb(3, 163, 238);
@@ -113,8 +114,10 @@
     .largenav{
 
         cursor:pointer;
-        margin:0.6rem auto 0 auto;
-        width:96%;
+        margin:-0.2rem auto 0 auto;
+        width:100%;
+        background:#ffffff;
+        
      
 
         
@@ -124,13 +127,14 @@
             flex-direction:row;
             flex-wrap:nowrap;
             justify-content:space-around;
+            width:96%;
            
 
             .logo{
                 width:2%;
                 position:absolute;
                 left:5%;
-                top:3.5rem;
+                top:1rem;
                
                               
                
@@ -146,9 +150,9 @@
             h3{
                 width:50%;
                 text-align:center;
-                font-family:"Kurale", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-family:"Arvo", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 font-size:2rem;
-                padding:0.2rem 0 0 2rem;
+                padding:0.7rem 0 0 2rem;
                 margin:0 0 0 25%;
                 line-height:30px;
 
@@ -172,8 +176,8 @@
                     width:3%;
                     height:2.4rem;
                     position:absolute;
-                    left:87%;
-                    top:3.3rem;
+                    left:84%;
+                    top:0.45rem;
                 }
             }
         }
@@ -190,12 +194,11 @@
             
 
             .mymenus{
-                border:none;
+                border:0.2rem solid white;
                 padding:0 0.5% 0.5rem 0.5%;
-                border-radius:0.1rem;
                 font-weight:bold;
                 text-align:center;
-                transition:border 0.30s ease-in-out;
+                transition:all 0.40s ease-in-out;
 
                 &:hover{
                     border-bottom:0.2rem solid rgb(3, 163, 238);
@@ -213,8 +216,10 @@
     .largenav{
 
         cursor:pointer;
-        margin:0.6rem auto 0 auto;
-        width:96%;
+        margin:0 auto 0 auto;
+        width:100%;
+        background:#ffffff;
+
      
 
         
@@ -224,13 +229,14 @@
             flex-direction:row;
             flex-wrap:nowrap;
             justify-content:space-around;
+            width:96%;
            
 
             .logo{
                 width:1.8%;
                 position:absolute;
                 left:5%;
-                top:3.4rem;
+                top:1rem;
                
                               
                
@@ -246,9 +252,9 @@
             h3{
                 width:50%;
                 text-align:center;
-                font-family:"Kurale", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-family:"Arvo", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 font-size:2rem;
-                padding:0.2rem 0 0 2rem;
+                padding:1rem 0 0 2rem;
                 margin:0 0 0 25%;
                 line-height:27px;
                 
@@ -273,8 +279,8 @@
                     width:3%;
                     height:2.5rem;
                     position:absolute;
-                    left:87%;
-                    top:3.3rem;
+                    left:84%;
+                    top:0.7rem;
                 }
             }
         }
@@ -291,12 +297,11 @@
             
 
             .mymenus{
-                border:none;
+                border:0.2rem solid white;
                 padding:0 0.5% 0.5rem 0.5%;
-                border-radius:0.1rem;
                 font-weight:bold;
                 text-align:center;
-                transition:border 0.30s ease-in-out;
+                transition:border 0.40s ease-in-out;
 
                 &:hover{
                     border-bottom:0.2rem solid rgb(3, 163, 238);

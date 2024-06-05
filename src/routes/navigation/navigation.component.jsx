@@ -3,24 +3,32 @@ import SmallNavigation from '../../components/smallnavigation/smallnavigation.co
 import {Outlet} from 'react-router-dom';
 import './navigation.scss';
 import Searchmenu from '../../components/searchmenu/searchmenu.component';
-import { SearchContext } from '../../context/search.component';
-import { useContext } from 'react';
+import { useSelector } from 'react-redux';
+import { searchSelector } from '../../store/search/searchselector';
+import { signinSelector } from '../../store/signin/signinselector';
+
+
 
 const Navigation = ()=>{
 
-    const {displaySearch} = useContext(SearchContext)
-
+    const displaySignin = useSelector(signinSelector);
+    const displaySearch = useSelector(searchSelector);
+    const searchclass = ['defaultstyle', 'remove-div', 'searchmenu']
+    
     
     return(
         <div className='navigation'>
+            
             <div className='empty'></div>
-            {
-                displaySearch&&<Searchmenu/>
-            }
+            <div className='gather'>
+            <Searchmenu className={searchclass[displaySearch]}/>
             <LargeNavigation/>
             <SmallNavigation/>
-            <Outlet/>
 
+            </div>
+           
+            <Outlet/>
+           
         </div>
     )
 }

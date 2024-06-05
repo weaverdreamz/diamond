@@ -3,20 +3,36 @@ import {Link} from 'react-router-dom';
 import Log from "../../assets/signin.jpg";
 import CartIcon from '../cartIcon/cartIcon.component';
 import Search from '../../assets/search.png';
-import {useContext} from 'react';
-import { SearchContext } from '../../context/search.component';
+import { useSelector, useDispatch } from 'react-redux';
+import { searchSelector } from '../../store/search/searchselector';
+import { setSearch } from '../../store/search/searchaction';
+import { signinSelector } from '../../store/signin/signinselector';
+import { yoursSignin } from '../../store/signin/sigininactions';
 
 
 
 
 const LargeNavigation = ()=>{
-    const {displaySearch, setDisplaySearch } = useContext(SearchContext);
+    const displaySearch = useSelector(searchSelector);
+    const dispatch = useDispatch();
+    const mysignin = useSelector(signinSelector);
 
     const displayHandler = ()=>{
-       setDisplaySearch(!displaySearch)
+        if(displaySearch<=1){
+            dispatch(setSearch(2))
+        }
+        if(displaySearch===2){
+            dispatch(setSearch(1))
+        }
+       
     }
 
-    console.log(displaySearch);
+    const mySignIn = ()=>{
+        dispatch(yoursSignin(2));
+        alert(yoursSignin)
+    }
+
+       
     return(
         <div className='largenav'>
             <div className='lnav'>
@@ -30,7 +46,7 @@ const LargeNavigation = ()=>{
                 </h3>
                 <div className='navmenu'>
                     <div className='menus'>
-                    <img src={Log} alt='login'/>
+                    <img src={Log} alt='login' onClick={mySignIn}/>
 
                         </div>
                         <div className='menus'>
@@ -52,9 +68,7 @@ const LargeNavigation = ()=>{
                     PATEK PHILIPPE
                 </div>
                 
-                <div className='mymenus'>
-                    HUBLOT
-                </div>
+               
 
                 <div className='mymenus'>
                     RICHARD MILLE

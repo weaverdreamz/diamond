@@ -4,9 +4,9 @@
 
     .carticon{
         .cicon{
-            width:68%;
+            width:65%;
             margin: -1rem 0 0 5%;
-            height:3.2rem;
+            height:3rem;
             
             
         }
@@ -22,7 +22,7 @@
             font-weight:bold;
             color:white;
             border:0.2rem solid rgb(3, 163, 238);
-            top:2.5rem;
+            top:0.2rem;
         }
     
        } 
@@ -35,7 +35,7 @@
     .carticon{
         .cicon{
             width:55%;
-            margin: -0.7rem 0 0 5%;
+            margin: -0.8rem 0 0 5%;
             height:3.2rem;
             
             
@@ -47,6 +47,7 @@
             border-radius:50%;
             position:absolute;
             width:3%;
+            top:0.4rem;
             height:1.1rem;
             text-align:center;
             font-weight:bold;
@@ -66,7 +67,9 @@
     .carticon{
         .cicon{
             width:57%;
-            margin: -0.2rem 0 0 10%;
+            position:relative;
+            top:-0.7rem;
+            left:1%;
             height:3.2rem;
             
             
@@ -77,6 +80,7 @@
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             border-radius:50%;
             position:absolute;
+            top:0.42rem;
             width:2.5%;
             height:1.1rem;
             text-align:center;
@@ -146,7 +150,7 @@
    .carticon{
     .cicon{
         width:8%;
-        margin:0.5rem 0 0 70%;
+        margin:0.5rem 0 0 71%;
         
     }
     .counter{

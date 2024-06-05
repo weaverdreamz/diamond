@@ -2,17 +2,23 @@ import './smallnavigation.scss';
 import Signin from '../../assets/signin.jpg';
 import CartIcon from '../cartIcon/cartIcon.component';
 import Search from '../../assets/search.png';
-import { SearchContext } from '../../context/search.component';
-import {useContext} from 'react';
 import { Link } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { setSearch } from '../../store/search/searchaction';
+import { searchSelector } from '../../store/search/searchselector';
 
  
 const SmallNavigation = ()=>{
 
-    const {displaySearch, setDisplaySearch} = useContext(SearchContext);
-
+    const dispatch = useDispatch();
+    const displaySearch = useSelector(searchSelector)
     const displayHandler = ()=>{
-        setDisplaySearch(!displaySearch);
+            if(displaySearch<=1){
+                dispatch(setSearch(2))
+            }
+            if(displaySearch===2){
+                dispatch(setSearch(1))
+            }
     }
     return(
         <div className='smallnav'>
@@ -40,7 +46,6 @@ const SmallNavigation = ()=>{
                 </div>
 
                 <div className='mobilemenus'>
-                    <img src={Signin} alt='sigin'/>
                     <CartIcon/>
 
                 </div>

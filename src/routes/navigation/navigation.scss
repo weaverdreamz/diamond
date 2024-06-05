@@ -1,13 +1,26 @@
 //THIS IS THE STYLING FOR DEVICE WITH WIDTH 320PX TILL 768PX
 @media only screen and (min-width:320px) and (max-width:768px){
     .navigation{
-        position:fixed;
-        width:100%;
+        background:#ffffff;
+        height:auto;
 
         .empty{
             height:2rem;
             background:rgb(215, 215, 221);
+            position:fixed;
+            width:100%;
+            z-index:999;
+            top:0;
         }
+        .gather{
+            position:fixed;
+            z-index:999;
+            width:100%;
+            top:2rem;
+            background:#ffffff;
+        }
+
+        
     }
 
 }
@@ -15,13 +28,30 @@
 
 @media only screen and (min-width:769px){
     .navigation{
-        position:fixed;
-        width:100%;
-        cursor: pointer;
+        background:#ffffff;
+        height:auto;
+             
+        
+           
+            .empty{
+                height:2rem;
+                background:rgb(215, 215, 221);
+                width:100%;
+                cursor: pointer;
+                position:fixed;
+                z-index:999;
+                top:0;
+            }
+            .gather{
+                position:fixed;
+                z-index:999;
+                width:100%;
+                top:2rem;
+                
+            }
 
-        .empty{
-            height:2rem;
-            background:rgb(215, 215, 221);
-        }
+        
+
+        
     }
 }
