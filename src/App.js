@@ -4,7 +4,7 @@ import Home from "./routes/home/home.component";
 
 
 const App = ()=>{
-    alert(window.innerWidth)
+    
     return(
         <div className='app'>
 

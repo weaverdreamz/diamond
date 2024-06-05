@@ -33,7 +33,7 @@ const Home = ()=>{
 
     
     const available = myLatestProduct['newest arrival'];
-    console.log(available);
+    
     
 
 
