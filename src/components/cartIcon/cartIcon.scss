@@ -16,13 +16,17 @@
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             border-radius:50%;
             position:absolute;
-            width:4%;
-            height:1.1rem;
+            width:3%;
+            height:0.9rem;
+            left:91%;
             text-align:center;
             font-weight:bold;
             color:white;
             border:0.2rem solid rgb(3, 163, 238);
             top:0.2rem;
+            display:flex;
+            justify-content:center;
+            align-items:center;
         }
     
        } 
