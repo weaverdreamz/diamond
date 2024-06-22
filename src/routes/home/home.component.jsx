@@ -89,14 +89,15 @@ const Home = ()=>{
             
             
             <div className='newproducts'>
+                <div className='overfloww'>
 
+                    
                 {
                     available&&available.map((products)=>{
                         return <Products  className='productss' key={products['id']} product={products}/>
                     })
                 }
-
-        
+                </div>
 
                 
 
